@@ -19,19 +19,19 @@
           "options": {
             "outputPath": "dist/sageecommerce",
             "baseHref": "sageECommerce",
-            "index": "src/index.html",
-            "browser": "src/main.ts",
+            "index": "index.html",
+            "browser": "main.ts",
             "polyfills": [
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "favicon.ico",
+              "assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "styles.scss"
             ],
             "scripts": []
           },
