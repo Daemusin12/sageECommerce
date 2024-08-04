@@ -1,30 +1,15 @@
 <div class="header-container">
-    <div class="title-logo">
-        <img class="logo" src="assets/logo/logo.svg" />
-        <p class="title">Sage</p>
-    </div>
-    <div class="searchbar-container">
-        <div class="searchbar">
-            <input placeholder="Search Products"/>
-            <button>
-                <img src="assets/icons/Search.svg">
-            </button>
+    <div class="buttons-container"></div>
+    <div class="title">Sage</div>
+    <div class="buttons-container">
+        <div class="profile-container">
+            <img src="assets/icons/heart.svg"/>
         </div>
-    </div>
-    <div class="menu-container">
-        <div class="menu" *ngFor="let item of menu">
-            {{item}}
+        <div class="profile-container">
+            <img src="assets/icons/basket.svg"/>
         </div>
-        <div class="menu">
-            <img src="assets/icons/shopcart.svg" />
-        </div>
-    </div>
-    <div class="profile-container">
-        <img src="assets/icons/Man.svg"/>
-    </div>
-    <div class="userbutton-container">
-        <button>
-            <p>Sign up</p>
+        <button class="login">
+            Login
         </button>
     </div>
 </div>
