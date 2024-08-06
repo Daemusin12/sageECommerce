@@ -1,0 +1,30 @@
+@import '../../../styles.scss';
+
+.navmenu-container {
+    display: flex;
+    flex-direction: row;
+    background-color: $light-brown;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+
+    .navmenu {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 540px;
+        align-items: center;
+        justify-content: space-between;
+
+        .item {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            width: 130px;
+            font-size: 25px;
+            align-items: center;
+            justify-content: center;
+            color: $golden-yellow;
+        }
+    }
+}
