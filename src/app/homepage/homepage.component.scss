@@ -1,0 +1,23 @@
+.homepage-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    margin-top: 150px;
+    height: calc(100vh - 150px);
+}
+
+.homepage-container::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
+}
+
+.section {
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+
+    .image {
+        height: 500px;
+        width: 900px;
+    }
+}
